@@ -1,0 +1,30 @@
+h1{
+    background: #6699ff;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+}
+h2{
+    background: #6699ff;
+  border-radius:0 0 15px 15px;
+  padding: 10px;
+  text-align:center;
+}
+footer{
+    text-align:center;
+}
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 1.8em;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+    ul.navbar li {
+        background: rgb(214, 214, 214);
+        margin: 0.5em 0;
+        padding: 0.3em;
+        border-right: 1em solid #6699ff }
+      ul.navbar a {
+        text-decoration: none }
