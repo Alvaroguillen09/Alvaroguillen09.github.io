@@ -1,10 +1,17 @@
+/*Ajustamos el body metiendole un pading, una fuente al texto, un color y un fondo*/
+
 body {
     padding-left: 11em;
     font-family: Georgia, "Times New Roman",
           Times, serif;
     color: rgb(255, 255, 255);
     background-color: #000000 }
-  ul.navbar {
+/*Le metemos una fuente al texto del h1*/
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+/*Le damos estilo a la barra lateral indicandole margenes, padding, posiciones, etc...*/
+ul.navbar {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -12,9 +19,6 @@ body {
     top: 2em;
     left: 1em;
     width: 9em }
-  h1 {
-    font-family: Helvetica, Geneva, Arial,
-          SunSans-Regular, sans-serif }
   ul.navbar li {
     background: white;
     margin: 0.5em 0;
@@ -22,10 +26,13 @@ body {
     border-right: 1em solid rgb(183, 188, 183) }
   ul.navbar a {
     text-decoration: none }
+/*Indicamos que el enlace cuando no ha sido clicado se vea azul*/
   a:link {
     color: blue }
+/*Indicamos que el enlace cuando ha sido clicado se vea del color que indicamos*/
   a:visited {
     color: rgb(165, 101, 165) }
+/*Le asignamos un margin, un padding y un border-top al address*/
   address {
     margin-top: 1em;
     padding-top: 1em;
