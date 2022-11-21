@@ -1,18 +1,22 @@
+/*Le damos un backgroud, un borde, un padding y alineamos el texto al centro*/
 h1{
     background: #6699ff;
   border-radius:0 0 15px 15px;
   padding: 10px;
   text-align:center;
 }
+/*Le damos un background, un borde, un padding y alineamos el texto al centro*/
 h2{
     background: #6699ff;
   border-radius:0 0 15px 15px;
   padding: 10px;
   text-align:center;
 }
+/*Alineamos el footer al centro*/
 footer{
     text-align:center;
 }
+/*Le damos estilo al navbar que está situado en la parte superior izquierda de la página*/
 ul.navbar {
     list-style-type: none;
     padding: 0;
